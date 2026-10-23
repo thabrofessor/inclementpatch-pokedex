@@ -1,6 +1,6 @@
 # Inclementpatch Field Guide
 
-Open `index.html` in a modern browser. The Pokédex is a self-contained static site with no build step or network dependency.
+Open `index.html` from a local web server or visit the hosted site. The guide is a static site with no build step; the full trainer directory loads on demand from `assets/all-trainers.json`.
 
 ## Features
 - Search by name, Pokédex number, type, ability, or wild location.
@@ -13,6 +13,8 @@ Open `index.html` in a modern browser. The Pokédex is a self-contained static s
 - Searchable berry-tree encounter library with separate groups for Sprouted, Taller, Flowering, and Berries growth stages.
 - Boss Battles library with Gym Leader and Elite Four sprites, three randomized versions per battle set, held items, moves, and Totem, Alpha, Shadow, or Primal markers.
 - Villain Battles library with all nine requested antagonists, in-game trainer sprites, all numbered encounters, three randomized team versions, held items, moves, and boost markers.
+- Team Builder roster import by file or paste, plus live Pokémon search to add candidates.
+- Team Builder trainer counter mode with searchable, scrollable data for 1,700 map-scripted trainer encounters and randomized team variants.
 - Responsive layout, keyboard focus, and Escape to close the mobile detail view.
 
 ## Data provenance

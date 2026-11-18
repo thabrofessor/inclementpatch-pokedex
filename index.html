@@ -93,7 +93,73 @@ url("assets/emerald-souls-banner-sm.webp") 47% 100%/auto 60% no-repeat,#182742}}
 @media(max-width:540px){.team-modes{grid-template-columns:1fr}.team-mode{padding:11px}}
 </style>
 <style id="team-variant-matchup-styles">.team-outlook{display:grid;grid-template-columns:minmax(230px,.8fr) 1.2fr;gap:13px;align-items:center;padding:16px;border:1px solid #46557b;border-radius:17px;background:radial-gradient(ellipse at 0 0,#5365ad38,transparent 54%),linear-gradient(130deg,#1e2d49,#141f31)}.team-outlook>div:first-child>span{display:block;color:#a9bbff;font-size:9px;font-weight:850;letter-spacing:.1em;text-transform:uppercase}.team-outlook strong{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:6px 0;font-size:20px}.team-outlook strong>b{display:flex;align-items:baseline;gap:3px;color:#9eefd2;font-size:25px}.team-outlook strong small{font-size:10px;color:#a9b7cb}.team-outlook p{margin:0;color:#aab8cc;font-size:9px;line-height:1.5}.team-outlook-detail{display:grid;gap:6px;border-left:1px solid #3b4b68;padding-left:14px;color:#aebcd1;font-size:9px}.team-outlook-detail b{color:#e5ecfb;font-size:11px}.team-opponents{display:grid;gap:9px}.team-opponents-head{display:flex;justify-content:space-between;align-items:center;gap:10px}.team-opponents-head h4{margin:0;color:#edf2fc;font-size:13px}.team-opponents-head p{margin:4px 0 0;color:#96a7c0;font-size:9px;line-height:1.5}.team-variant-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.team-variant{display:block;min-width:0;text-align:left;padding:10px;border:1px solid #33445f;border-radius:14px;background:#141f31;color:inherit;cursor:pointer;transition:border-color .15s,background .15s,transform .15s}.team-variant:hover{border-color:#8192ff;transform:translateY(-1px)}.team-variant.active{border-color:#75d8bc;box-shadow:0 0 0 1px #75d8bc42;background:linear-gradient(150deg,#203b42,#172337)}.team-variant-heading{display:flex;justify-content:space-between;gap:6px;align-items:baseline;margin-bottom:8px}.team-variant-heading b{font-size:10px;color:#f0f4fc}.team-variant-heading small{font-size:8px;color:#8fa4c1;text-align:right}.team-variant.active .team-variant-heading small{color:#92e3c6}.team-variant-roster{display:grid;gap:6px}.team-opp-mon{display:flex;align-items:center;gap:7px;padding:6px;border-radius:9px;background:#0e1828}.team-opp-mon>img{width:36px;height:36px;flex:none;object-fit:contain;image-rendering:pixelated}.team-opp-mon-info{min-width:0;flex:1}.team-opp-mon-info>b{display:block;color:#e8eef9;font-size:9px}.team-opp-mon-info>b em{color:#eabf73;font-style:normal;font-size:7px}.team-opp-mon-info>small{display:block;margin:3px 0;color:#98a8c0;font-size:7px;line-height:1.45}.team-opp-mon-info .type{font-size:7px;padding:2px 5px}.team-opp-moves{display:flex;flex-wrap:wrap;gap:3px}.team-opp-move{border:1px solid #2e405b;border-radius:5px;padding:2px 4px;color:#b7c5db;font-size:7px}.team-matchups{display:grid;gap:6px;margin-top:8px}.team-matchups>div{padding:7px 8px;border-radius:9px;background:#102a27}.team-matchups>div.watch{background:#321e2a}.team-matchups b{display:block;margin-bottom:3px;color:#9de3bf;font-size:8px}.team-matchups .watch b{color:#ffb0aa}.team-matchups p{margin:0;color:#c0ccdc;font-size:8px;line-height:1.5}@media(max-width:1000px){.team-variant-grid{grid-template-columns:1fr}.team-opp-mon{align-items:flex-start}.team-opp-moves{max-width:none}}@media(max-width:700px){.team-outlook{grid-template-columns:1fr}.team-outlook-detail{border-left:0;border-top:1px solid #3b4b68;padding:9px 0 0}.team-variant-heading{align-items:flex-start}.team-variant-heading small{max-width:150px}.team-picks{grid-template-columns:1fr}}</style>
-<style id="team-cap-wall-moves-styles">.team-level-cap{margin:12px 0 3px}.team-source-toggles{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.team-source-toggle{display:inline-flex;align-items:center;gap:6px;padding:6px 8px;border:1px solid #344b63;border-radius:999px;background:#142338;color:#c8d7e9;cursor:pointer}.team-source-toggle:has(input:checked){border-color:#55d6b2;background:#16342f;color:#e2fff5}.team-source-toggle input{width:13px;height:13px;margin:0;accent-color:#55d6b2}.team-source-toggle span{font-size:9px;font-weight:750}.team-cap-input{position:relative}.team-cap-input input{padding-right:40px}.team-cap-input>span{position:absolute;right:12px;top:50%;transform:translateY(-50%);color:#aab9ce;font-size:10px;font-weight:850}.team-level-cap>small{color:#90a2bb;font-size:9px;line-height:1.45}.team-matchups .team-wall{background:#182d3b}.team-matchups .team-wall b{color:#a6d8ff}.team-suggested-moves{margin-top:8px;padding:8px;border:1px solid #344b63;border-radius:10px;background:#111e30}.team-suggested-moves>b{display:block;margin-bottom:6px;color:#dce8f7;font-size:8px}.team-suggested-moves>div{display:flex;flex-wrap:wrap;gap:4px}.team-suggested-moves>div>span{display:grid;gap:2px;border:1px solid #334762;border-radius:7px;padding:4px 6px;background:#17273b}.team-suggested-moves strong{color:#f0f4fb;font-size:8px}.team-suggested-moves small{color:#9db0c9;font-size:7px}.team-suggested-moves>p{margin:6px 0 0;color:#899bb4;font-size:7px;line-height:1.45}@media(max-width:700px){.team-suggested-moves>div>span{flex:1 1 42%}}.team-file-help{display:block;margin-top:6px;color:#90a2bb;font-size:9px;line-height:1.5}
+<style id="team-cap-wall-moves-styles">.team-level-cap{margin:12px 0 3px}.team-source-toggles{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.team-source-toggle{display:inline-flex;align-items:center;gap:6px;padding:6px 8px;border:1px solid #344b63;border-radius:999px;background:#142338;color:#c8d7e9;cursor:pointer}.team-source-toggle:has(input:checked){border-color:#55d6b2;background:#16342f;color:#e2fff5}.team-source-toggle input{width:13px;height:13px;margin:0;accent-color:#55d6b2}.team-source-toggle span{font-size:9px;font-weight:750}.team-cap-input{position:relative}.team-cap-input input{padding-right:40px}.team-cap-input>span{position:absolute;right:12px;top:50%;transform:translateY(-50%);color:#aab9ce;font-size:10px;font-weight:850}.team-level-cap>small{color:#90a2bb;font-size:9px;line-height:1.45}.team-matchups .team-wall{background:#182d3b}.team-matchups .team-wall b{color:#a6d8ff}.team-suggested-moves{margin-top:8px;padding:8px;border:1px solid #344b63;border-radius:10px;background:#111e30}
+.team-suggested-ability{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-bottom:8px;padding-bottom:7px;border-bottom:1px solid #2a3d55}
+.team-suggested-ability>b{color:#9ec8ff;font-size:8px;letter-spacing:.06em;text-transform:uppercase}
+.team-suggested-ability span{display:flex;flex-wrap:wrap;align-items:baseline;gap:5px}
+.team-suggested-ability strong{color:#e8f0ff;font-size:11px}
+
+.team-suggested-ability small{color:#8fa3bf;font-size:9px}
+.team-type-chart{margin-top:16px;padding:16px;border:1px solid #2c3d55;border-radius:16px;background:linear-gradient(160deg,#152033,#101a29)}
+.team-chart-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:14px;flex-wrap:wrap}
+.team-chart-head h4{margin:0 0 4px;font-size:13px;letter-spacing:-.02em;color:#e8eef8}
+.team-chart-head p{margin:0;font-size:10px;color:#8fa0b8;max-width:420px;line-height:1.45}
+.team-chart-ratings{display:flex;gap:14px}
+.team-chart-rating-block{min-width:110px}
+.team-chart-rating-block>span{display:block;font-size:9px;font-weight:750;letter-spacing:.08em;text-transform:uppercase;color:#8ea0b8;margin-bottom:5px}
+.team-rating{display:flex;align-items:center;gap:8px}
+.team-rating-num{font:800 16px/1 ui-sans-serif,system-ui;color:#edf3ff;letter-spacing:-.03em}
+.team-rating-num small{font-size:10px;font-weight:650;color:#8fa3bf;margin-left:1px}
+.team-rating-track{flex:1;height:6px;border-radius:99px;background:#243247;overflow:hidden;min-width:48px}
+.team-rating-track i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#667bff,#75e5c4)}
+.team-rating[data-tone="high"] .team-rating-track i{background:linear-gradient(90deg,#3ecf8e,#75e5c4)}
+.team-rating[data-tone="mid"] .team-rating-track i{background:linear-gradient(90deg,#667bff,#8da2ff)}
+.team-rating[data-tone="low"] .team-rating-track i{background:linear-gradient(90deg,#c45d55,#ef7657)}
+.team-chart-grid-wrap{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.team-chart-block{min-width:0}
+.team-chart-label{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:7px}
+.team-chart-label b{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:#c5d0e2}
+.team-chart-label span{font-size:9px;color:#8091a8}
+.team-chart-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:4px}
+.team-chart-cell{border:1px solid #2f425c;border-radius:8px;background:#152033;color:#d5deec;padding:6px 4px;display:grid;gap:2px;justify-items:center;min-width:0;cursor:default}
+.team-chart-cell span{font-size:8px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#9eb0c7}
+.team-chart-cell b{font-size:10px;font-weight:800;letter-spacing:-.02em}
+.team-chart-cell small{font-size:8px;color:#8799b0}
+.team-chart-cell.off.super{background:color-mix(in srgb,var(--type) 28%,#152033);border-color:color-mix(in srgb,var(--type) 55%,#2f425c);color:#f2f6ff}
+.team-chart-cell.off.super b{color:#fff}
+.team-chart-cell.off.stab{background:color-mix(in srgb,var(--type) 18%,#152033);border-color:color-mix(in srgb,var(--type) 40%,#2f425c)}
+.team-chart-cell.off.neutral{background:#152033}
+.team-chart-cell.off.resist{background:#121c2b;opacity:.85}
+.team-chart-cell.off.immune{background:#0f1724;opacity:.7}
+.team-chart-cell.off.immune b{color:#6f7f95}
+.team-chart-cell.def.hole{background:#2a1820;border-color:#6b3a48}
+.team-chart-cell.def.hole b{color:#f0a0a8}
+.team-chart-cell.def.soft{background:#241c1a;border-color:#5a4538}
+.team-chart-cell.def.soft b{color:#e8c0a0}
+.team-chart-cell.def.solid{background:#152820;border-color:#2f5a48}
+.team-chart-cell.def.solid b{color:#9ee0c0}
+.team-chart-cell.def.ok{background:#152033}
+.team-chart-cell.def.plain{background:#121c2b}
+.team-chart-legend{display:flex;flex-wrap:wrap;gap:8px 12px;margin-top:12px;padding-top:10px;border-top:1px solid #243247;font-size:9px;color:#8fa0b8}
+.team-chart-legend .sep{opacity:.4}
+.team-chart-legend i.lg{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:4px;vertical-align:-1px;border:1px solid #3a4d66}
+.team-chart-legend i.lg.super{background:#3d6b4a;border-color:#5a9a70}
+.team-chart-legend i.lg.stab{background:#2a4a6b;border-color:#4a7aaa}
+.team-chart-legend i.lg.neutral{background:#1a2838}
+.team-chart-legend i.lg.resist{background:#151e2a}
+.team-chart-legend i.lg.immune{background:#101820}
+.team-chart-legend i.lg.hole{background:#5a3038;border-color:#8a5058}
+.team-chart-legend i.lg.soft{background:#4a3a30;border-color:#7a6050}
+.team-chart-legend i.lg.solid{background:#2a4a3a;border-color:#4a7a60}
+@media(max-width:720px){
+  .team-chart-grid-wrap{grid-template-columns:1fr}
+  .team-chart-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .team-chart-ratings{width:100%;justify-content:space-between}
+}
+@media(max-width:420px){
+  .team-chart-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+.team-suggested-moves>b{display:block;margin-bottom:6px;color:#dce8f7;font-size:8px}.team-suggested-moves>div{display:flex;flex-wrap:wrap;gap:4px}.team-suggested-moves>div>span{display:grid;gap:2px;border:1px solid #334762;border-radius:7px;padding:4px 6px;background:#17273b}.team-suggested-moves strong{color:#f0f4fb;font-size:8px}.team-suggested-moves small{color:#9db0c9;font-size:7px}.team-suggested-moves>p{margin:6px 0 0;color:#899bb4;font-size:7px;line-height:1.45}@media(max-width:700px){.team-suggested-moves>div>span{flex:1 1 42%}}.team-file-help{display:block;margin-top:6px;color:#90a2bb;font-size:9px;line-height:1.5}
 .map-area-search-row{position:relative;margin:-3px 0 14px;max-width:720px}.map-area-search-row .searchbox input{height:46px;background:#182233;border:1px solid #344156;color:#edf3fb}.map-area-search-row .searchbox input::placeholder{color:#8190a7}.map-area-search-row .searchbox>span{color:#9eadd0}.map-area-suggestions{display:none;position:absolute;top:51px;left:0;right:0;z-index:9;max-height:330px;overflow:auto;border:1px solid #34435c;border-radius:13px;background:#182233;box-shadow:0 14px 35px #030813a6}.map-area-suggestions.open{display:block}.map-area-suggestion{display:flex;width:100%;align-items:center;gap:10px;padding:10px 12px;border:0;border-bottom:1px solid #29364a;background:transparent;color:#edf2fb;text-align:left}.map-area-suggestion:last-child{border-bottom:0}.map-area-suggestion:hover,.map-area-suggestion:focus{background:#24324a;outline:none}.map-area-suggestion .directory-pin{display:grid;place-items:center;flex:none;width:30px;height:30px;border-radius:9px;background:#2b3c50;color:#83e7c3}.map-area-suggestion>span:nth-child(2){display:grid;gap:2px;min-width:0}.map-area-suggestion b{font-size:11px}.map-area-suggestion small{font-size:9px;color:#95a4ba}.map-area-suggestion em{margin-left:auto;color:#a9b8ff;font-size:9px;font-style:normal;white-space:nowrap}.map-directory-empty{padding:13px;color:#95a4ba;font-size:11px}
 @media(max-width:520px){.map-area-search-row{margin-bottom:10px}.map-area-search-row .searchbox input{height:44px;font-size:12px}.map-area-suggestions{max-height:45vh}}
 .team-card .team-inline{flex-wrap:wrap}.team-card .team-inline .team-input{flex:1 1 150px;min-width:0}
@@ -349,99 +415,197 @@ function teamImportSave(file){
   });
 }
 
+
+function teamEffectiveLevel(p){
+  return (p && p.fromSave && p.level) ? p.level : teamLevelCap;
+}
+/** All damaging + useful status moves this Pokémon can currently access. */
 function teamMoveListUncached(p){
-  // Prefer moves the Pokémon actually knows if this is a save instance
-  if(p.fromSave && Array.isArray(p.knownMoves) && p.knownMoves.length){
-    const known = p.knownMoves.filter(m => m && (m.power > 0 || /status|status/i.test(m.category||'')));
-    // Also allow level-up moves up to its recorded level (or the global cap)
-    const effectiveLevel = p.level || teamLevelCap;
-    const learn = p.moves || {};
-    const levelMoves = (learn.level || []).filter(x => Number(x.level||0) <= effectiveLevel);
-    const tmMoves = (learn.tm || []).filter(x => /^HM/i.test(String(x.item||'')) ? teamAllowHM : teamAllowTM);
-    const eggMoves = teamAllowEgg ? (learn.egg || []) : [];
-    const all = [...known];
-    const seen = new Set(known.map(m => m.key));
-    for(const row of [...levelMoves, ...tmMoves, ...eggMoves]){
-      const m = TEAM_MOVE_BY_KEY.get(row.key) || TEAM_MOVE_BY_NAME.get(String(row.name||'').toLowerCase());
-      if(m && m.power > 0 && !seen.has(m.key)){
-        seen.add(m.key);
-        all.push(m);
-      }
-    }
-    return all;
+  const effectiveLevel = teamEffectiveLevel(p);
+  const learn = p.moves || {};
+  const seen = new Set();
+  const all = [];
+  const add = (row, source) => {
+    const m = TEAM_MOVE_BY_KEY.get(row.key) || TEAM_MOVE_BY_NAME.get(String(row.name||'').toLowerCase()) || (row.power !== undefined ? row : null);
+    if(!m || seen.has(m.key)) return;
+    // Keep damaging moves and a curated set of high-value status/utility moves
+    const isDamaging = (m.power||0) > 0;
+    const isUtility = /protect|detect|recover|roost|soft-boiled|moonlight|morning sun|synthesis|shore up|wish|heal bell|aromatherapy|toxic|will-o-wisp|thunder wave|stun spore|sleep powder|spore|glare|nuzzle|yawn|stealth rock|spikes|toxic spikes|sticky web|defog|rapid spin|court change|taunt|encore|trick room|tailwind|reflect|light screen|aurora veil|swords dance|nasty plot|dragon dance|quiver dance|calm mind|bulk up|coil|shift gear|shell smash|growth|work up|agility|rock polish|autotomize|iron defense|acid armor|cosmic power|cotton guard|leech seed|haze|clear smog|whirlwind|roar|parting shot|u-turn|volt switch|flip turn|teleport|baton pass|perish song|destiny bond|substitute|encore|disable|knock off|trick|switcheroo|defog|rapid spin/i.test(m.name||'');
+    if(!isDamaging && !isUtility) return;
+    seen.add(m.key);
+    all.push({...m, source: source || 'Learnset'});
+  };
+  // 1. Moves currently known on the save instance
+  if(p.fromSave && Array.isArray(p.knownMoves)){
+    for(const m of p.knownMoves) add(m, 'Known');
   }
-  // Standard path for non-save pool
-  const learn = p.moves || {}, tmMoves = learn.tm || [];
-  const all = [
-    ...(learn.level || []).filter(x => Number(x.level||0) <= teamLevelCap),
-    ...tmMoves.filter(x => /^HM/i.test(String(x.item||'')) ? teamAllowHM : teamAllowTM),
-    ...(teamAllowEgg ? (learn.egg || []) : [])
-  ];
-  return [...new Map(all.map(x => {
-    const m = TEAM_MOVE_BY_KEY.get(x.key) || TEAM_MOVE_BY_NAME.get(String(x.name||'').toLowerCase());
-    return m && m.power > 0 ? [m.key, m] : null;
-  }).filter(Boolean)).values()];
+  // 2. Level-up moves (always available via Move Relearner)
+  for(const row of (learn.level || []).filter(x => Number(x.level||0) <= effectiveLevel)){
+    add(row, `Lv ${Number(row.level||0)}`);
+  }
+  // 3. TM / HM (gated)
+  for(const row of (learn.tm || []).filter(x => /^HM/i.test(String(x.item||'')) ? teamAllowHM : teamAllowTM)){
+    add(row, row.item || 'TM');
+  }
+  // 4. Egg moves (gated)
+  if(teamAllowEgg){
+    for(const row of (learn.egg || [])) add(row, 'Egg');
+  }
+  return all;
 }
 function teamMoveList(p){
   const id = Number(p.id);
-  const cacheKey = p.fromSave ? `${id}-L${p.level||0}-K${(p.knownMoves||[]).map(m=>m.key).join(',')}` : id;
+  const cacheKey = p.fromSave ? `${id}-L${p.level||0}-K${(p.knownMoves||[]).map(m=>m.key).join(',')}-T${teamAllowTM}-H${teamAllowHM}-E${teamAllowEgg}-C${teamLevelCap}` : `${id}-C${teamLevelCap}-T${teamAllowTM}-H${teamAllowHM}-E${teamAllowEgg}`;
   if(TEAM_MOVE_CACHE.has(cacheKey)) return TEAM_MOVE_CACHE.get(cacheKey);
   const moves = teamMoveListUncached(p);
   TEAM_MOVE_CACHE.set(cacheKey, moves);
   return moves;
 }
-function teamSuggestMoves(p, enemies){
-  const learn = p.moves || {}, tmMoves = learn.tm || [];
-  const effectiveLevel = (p.fromSave && p.level) ? p.level : teamLevelCap;
-  const rows = [
-    ...(p.fromSave && Array.isArray(p.knownMoves) ? p.knownMoves.map(m => ({...m, source: 'Known'})) : []),
-    ...(learn.level || []).filter(x => Number(x.level||0) <= effectiveLevel).map(x => ({...x, source: `Lv ${Number(x.level||0)}`})),
-    ...tmMoves.filter(x => /^HM/i.test(String(x.item||'')) ? teamAllowHM : teamAllowTM).map(x => ({...x, source: x.item || 'TM'})),
-    ...(teamAllowEgg ? (learn.egg || []).map(x => ({...x, source: 'Egg'})) : [])
-  ];
-  const seen = new Set(), candidates = [];
-  for(const row of rows){
-    const move = TEAM_MOVE_BY_KEY.get(row.key) || TEAM_MOVE_BY_NAME.get(String(row.name||'').toLowerCase()) || (row.power !== undefined ? row : null);
-    if(!move || move.power <= 0 || seen.has(move.key)) continue;
-    seen.add(move.key);
-    candidates.push({...move, source: row.source || 'Learnset'});
-  }
-  const chosen = [], bestByEnemy = new Map(enemies.map(({mon}) => [mon.id, 0])), typeCounts = new Map(), stats = p.stats || {};
-  while(chosen.length < 4 && candidates.length){
-    let bestIndex = -1, bestScore = -1;
-    for(let i = 0; i < candidates.length; i++){
-      const move = candidates[i], category = String(move.category||'').toLowerCase(), physical = category === 'physical';
-      const attack = Number(stats.attack||0), special = Number(stats.specialAttack||0);
-      let categoryFactor = 1;
-      if(physical && attack + 12 < special) categoryFactor = .82;
-      else if(category === 'special' && special + 12 < attack) categoryFactor = .82;
-      let gain = 0;
-      if(enemies.length){
-        for(const {mon} of enemies){
-          const effect = teamEffect(move.type, mon.types), raw = teamMoveValue(p, move, mon);
-          const score = raw * (effect > 1 ? 1.35 : effect === 1 ? .58 : 0);
-          gain += Math.max(0, score - (bestByEnemy.get(mon.id) || 0));
-        }
-      } else {
-        gain = (move.power || 0) * (p.types.includes(move.type) ? 1.5 : 1) * categoryFactor / Math.max(1, 1 + (typeCounts.get(move.type) || 0) * .7);
+/** Competitive 4-move suggestion for this Pokémon in the current team context. */
+function teamSuggestMoves(p, enemies, roleKey, strategy){
+  const candidates = teamMoveList(p);
+  if(!candidates.length) return [];
+  const stats = p.stats || {};
+  const atk = Number(stats.attack||0), spa = Number(stats.specialAttack||0), speed = Number(stats.speed||0);
+  const prefersPhysical = atk >= spa + 8;
+  const prefersSpecial = spa >= atk + 8;
+  const typeCounts = new Map();
+  const bestByEnemy = new Map((enemies||[]).map(({mon}) => [mon.id, 0]));
+  const chosen = [];
+  const isSetup = /swords dance|nasty plot|dragon dance|quiver dance|calm mind|bulk up|coil|shift gear|shell smash|growth|work up|agility|rock polish|autotomize|iron defense|acid armor|cosmic power|cotton guard/i;
+  const isRecovery = /recover|roost|soft-boiled|moonlight|morning sun|synthesis|shore up|wish|strength sap|milk drink|slack off|rest/i;
+  const isHazard = /stealth rock|spikes|toxic spikes|sticky web/i;
+  const isStatus = /toxic|will-o-wisp|thunder wave|stun spore|sleep powder|spore|glare|nuzzle|yawn|leech seed/i;
+  const isPivot = /u-turn|volt switch|flip turn|parting shot|teleport|baton pass/i;
+  const isProtect = /protect|detect|spiky shield|king.?s shield|baneful bunker|silk trap/i;
+
+  // Score a candidate move for inclusion
+  function scoreMove(move, alreadyChosen){
+    const name = (move.name||'').toLowerCase();
+    const category = String(move.category||'').toLowerCase();
+    const physical = category === 'physical';
+    const special = category === 'special';
+    let score = 0;
+    // STAB and power
+    const stab = (p.types||[]).includes(move.type) ? 1.5 : 1;
+    const power = Math.min(120, move.power||0);
+    let categoryFactor = 1;
+    if(physical && prefersSpecial) categoryFactor = 0.72;
+    if(special && prefersPhysical) categoryFactor = 0.72;
+    if(physical && prefersPhysical) categoryFactor = 1.12;
+    if(special && prefersSpecial) categoryFactor = 1.12;
+    // Coverage value vs enemies
+    let coverageGain = 0;
+    if(enemies && enemies.length){
+      for(const {mon} of enemies){
+        const effect = teamEffect(move.type, mon.types);
+        const raw = teamMoveValue(p, move, mon) * (effect > 1 ? 1.4 : effect === 1 ? 0.55 : 0.05);
+        coverageGain += Math.max(0, raw - (bestByEnemy.get(mon.id)||0));
       }
-      // Prefer actually known moves from the save
-      if(p.fromSave && (p.knownMoves||[]).some(k => k.key === move.key)) gain *= 1.25;
-      if(gain > bestScore){ bestScore = gain; bestIndex = i; }
+      score += coverageGain * 1.15;
+    } else {
+      score += power * stab * categoryFactor * 0.9;
     }
-    if(bestIndex < 0) break;
-    const move = candidates.splice(bestIndex, 1)[0];
+    // Role-aware utility
+    const role = roleKey || teamRoleKey(teamRole(p));
+    if(role === 'bulk' || role === 'support'){
+      if(isRecovery.test(name)) score += 38;
+      if(isStatus.test(name)) score += 22;
+      if(isHazard.test(name)) score += 26;
+      if(isProtect.test(name)) score += 18;
+      if(isPivot.test(name)) score += 14;
+    }
+    if(role === 'speed' || role === 'physical' || role === 'special' || role === 'flex'){
+      if(isSetup.test(name)) score += 28;
+      if(isPivot.test(name)) score += 12;
+      if(isProtect.test(name)) score += 8;
+    }
+    // Weather synergy
+    if(strategy && strategy.weather){
+      const info = TEAM_WEATHER_INFO[strategy.weather];
+      if(info){
+        if((info.moves||[]).some(m => name === m || name.includes(m))) score += 22;
+        if((info.helper||[]).some(m => name === m)) score += 14;
+        if((info.setup||[]).some(m => name === m)) score += 16;
+      }
+    }
+    // Prefer known moves slightly
+    if(move.source === 'Known') score += 6;
+    // Type diversity penalty / bonus
+    const typeCount = typeCounts.get(move.type) || 0;
+    if(power > 0) score /= (1 + typeCount * 0.55);
+    // Avoid stacking too many pure status if we already have coverage
+    if(power === 0 && alreadyChosen.filter(m => (m.power||0) === 0).length >= 2) score *= 0.45;
+    return score;
+  }
+
+  while(chosen.length < 4 && candidates.length){
+    let bestIdx = -1, bestScore = -1;
+    for(let i = 0; i < candidates.length; i++){
+      const s = scoreMove(candidates[i], chosen);
+      if(s > bestScore){ bestScore = s; bestIdx = i; }
+    }
+    if(bestIdx < 0 || bestScore <= 0) break;
+    const move = candidates.splice(bestIdx, 1)[0];
     chosen.push(move);
-    typeCounts.set(move.type, (typeCounts.get(move.type) || 0) + 1);
-    for(const {mon} of enemies){
-      const effect = teamEffect(move.type, mon.types), score = teamMoveValue(p, move, mon) * (effect > 1 ? 1.35 : effect === 1 ? .58 : 0);
-      bestByEnemy.set(mon.id, Math.max(bestByEnemy.get(mon.id) || 0, score));
+    if((move.power||0) > 0) typeCounts.set(move.type, (typeCounts.get(move.type)||0) + 1);
+    for(const {mon} of (enemies||[])){
+      const effect = teamEffect(move.type, mon.types);
+      const sc = teamMoveValue(p, move, mon) * (effect > 1 ? 1.4 : effect === 1 ? 0.55 : 0);
+      bestByEnemy.set(mon.id, Math.max(bestByEnemy.get(mon.id)||0, sc));
     }
   }
   return chosen;
 }
-function rowSourceIsKnown(move, p){
-  return (p.knownMoves || []).some(k => k.key === move.key);
+/** Pick the best ability for this Pokémon given team context and strategy. Ability Pill lets the player use any of the species' abilities. */
+function teamSuggestAbility(p, selected, strategy, enemies){
+  const abilities = (p.abilities || []).filter(Boolean);
+  if(!abilities.length) return null;
+  if(abilities.length === 1) return {name: abilities[0], reason: 'Only available ability'};
+  const weather = strategy && strategy.weather;
+  const weatherInfo = weather ? TEAM_WEATHER_INFO[weather] : null;
+  const role = teamRole(p);
+  const roleKey = teamRoleKey(role);
+  const scores = abilities.map(name => {
+    const lower = String(name).toLowerCase();
+    let score = 1;
+    let notes = [];
+    // Weather setters / abusers are extremely strong because weather is permanent
+    if(weatherInfo){
+      if((weatherInfo.setters||[]).includes(lower)){ score += 12; notes.push('sets permanent weather'); }
+      if((weatherInfo.abusers||[]).includes(lower)){ score += 9; notes.push('abuses permanent weather'); }
+    }
+    // Generic strong abilities
+    if(/drizzle|drought|sand stream|snow warning|orichalcum pulse|hadron engine/i.test(lower)){ score += 8; notes.push('auto-weather'); }
+    if(/huge power|pure power|adaptability|protean|libero|tough claws|technician|sheer force|solid rock|filter|prism armor|fur coat|multiscale|shadow shield|regenerator|magic bounce|unaware|good as gold/i.test(lower)){ score += 5.5; notes.push('high-impact ability'); }
+    if(/swift swim|chlorophyll|sand rush|slush rush|chloroplast/i.test(lower) && weatherInfo){ score += 4; notes.push('speed control in weather'); }
+    // Role synergy
+    if(roleKey === 'bulk' || roleKey === 'support'){
+      if(/regenerator|recover|natural cure|water absorb|volt absorb|flash fire|levitate|immunity|magic bounce|unaware|filter|solid rock|fur coat|multiscale|rough skin|iron barbs|gooey|thermal exchange/i.test(lower)){ score += 3.5; notes.push('defensive synergy'); }
+    }
+    if(roleKey === 'speed' || roleKey === 'physical' || roleKey === 'special'){
+      if(/huge power|pure power|adaptability|tough claws|technician|sheer force|protean|libero|moxie|beast boost|soul-heart|download|contrary|simple/i.test(lower)){ score += 3.5; notes.push('offensive synergy'); }
+    }
+    // Coverage vs enemies (type-based immunities / absorb)
+    if(enemies && enemies.length){
+      for(const {mon} of enemies){
+        const types = (mon.types||[]).map(t => t.toLowerCase());
+        if(/water absorb|storm drain|dry skin/i.test(lower) && types.includes('water')) score += 1.2;
+        if(/volt absorb|lightning rod|motor drive/i.test(lower) && types.includes('electric')) score += 1.2;
+        if(/flash fire|well-baked body/i.test(lower) && types.includes('fire')) score += 1.2;
+        if(/levitate|earth eater/i.test(lower) && types.includes('ground')) score += 1.1;
+      }
+    }
+    // Slight preference for the ability already on the save instance if it is good
+    if(p.fromSave && typeof p.abilitySlot === 'number' && abilities[p.abilitySlot] === name && score > 3){
+      score += 0.8; notes.push('currently has this ability');
+    }
+    return {name, score, notes};
+  });
+  scores.sort((a,b) => b.score - a.score);
+  const best = scores[0];
+  const reason = best.notes.length ? best.notes.slice(0,2).join(' · ') : 'Best overall for this role and team';
+  return {name: best.name, reason, alternatives: scores.slice(1,3).map(s => s.name)};
 }
 function teamEffect(moveType,targetTypes){let mult=1;for(const target of [...new Set(targetTypes||[])]){if((TEAM_IMMUNE[moveType]||[]).includes(target))return 0;if((TEAM_SUPER[moveType]||[]).includes(target))mult*=2;else if((TEAM_RESIST[moveType]||[]).includes(target))mult*=.5}return mult}
 function teamMoveValue(p,m,target){const e=teamEffect(m.type,target.types);const stab=p.types.includes(m.type)?1.5:1;const accuracy=m.accuracy===0?1:Math.max(.45,(m.accuracy||100)/100);return e*stab*Math.min(1.2,(m.power||0)/85)*accuracy}
@@ -457,7 +621,27 @@ let offense=0,defenseSafe=0,covered=[];for(const {mon} of enemies){let best=0,be
 const denom=Math.max(1,enemies.length),avgOff=offense/denom,defScore=defenseSafe/denom,roleBonus=selected.some(x=>x.roleKey===roleKey)?0:.25;const raw=avgOff*15+defScore*18+roleBonus*8;const fit=Math.max(38,Math.min(99,Math.round(40+raw*1.4)));return {raw,fit,role,roleKey,coverage,enemyCoverage:Object.fromEntries(enemies.map(({mon})=>{let best=0;for(const m of moves)best=Math.max(best,teamMoveValue(p,m,mon));return [mon.id,best]})),reason:`${covered.length?`Threatens ${[...new Set(covered.map(x=>x.type))].slice(0,3).join(', ')}-weak targets`:'Adds team depth'}; ${defScore>=.65?'typing and learnset offer useful defensive pivots':'watch the incoming coverage against this pick'}.`,covered:[...new Set(covered.map(x=>x.name))]}}
 const TEAM_WEATHER_INFO={rain:{label:'Rain',types:['Water'],setters:['drizzle'],abusers:['swift swim','rain dish','hydration','dry skin','water bubble'],setup:['rain dance'],moves:['thunder','hurricane'],helper:['weather ball']},sun:{label:'Sun',types:['Fire'],setters:['drought'],abusers:['chlorophyll','solar power','leaf guard','flower gift','harvest'],setup:['sunny day'],moves:['solar beam','solar blade','growth'],helper:['weather ball']},sand:{label:'Sandstorm',types:['Rock','Ground','Steel'],setters:['sand stream'],abusers:['sand rush','sand force','sand veil'],setup:['sandstorm'],moves:['shore up'],helper:['weather ball']},hail:{label:'Hail / snow',types:['Ice'],setters:['snow warning'],abusers:['ice body','snow cloak','slush rush'],setup:['hail','snowscape'],moves:['blizzard','aurora veil'],helper:['weather ball']}};
 const TEAM_ARCHETYPE_INFO={hex:{label:'Hex / Venoshock'},stall:{label:'Stall'},hyper:{label:'Hyper offense'},trickroom:{label:'Trick Room'},hazards:{label:'Hazard stack'},setup:{label:'Setup sweep'}};
-function teamAvailableMoveNames(p){const learn=p.moves||{};return [...(learn.level||[]).filter(x=>Number(x.level||0)<=teamLevelCap),...(learn.tm||[]).filter(x=>/^HM/i.test(String(x.item||''))?teamAllowHM:teamAllowTM),...(teamAllowEgg?(learn.egg||[]):[])].map(x=>String(x.name||'').toLowerCase())}
+function teamAvailableMoveNames(p){
+  const effectiveLevel = (p.fromSave && p.level) ? p.level : teamLevelCap;
+  const learn = p.moves || {};
+  const names = new Set();
+  // Known moves from save always count
+  if(p.fromSave && Array.isArray(p.knownMoves)){
+    for(const m of p.knownMoves) if(m && m.name) names.add(String(m.name).toLowerCase());
+  }
+  // Level-up moves are always available via the Move Relearner up to the Pokémon's level / level cap
+  for(const x of (learn.level || []).filter(x => Number(x.level||0) <= effectiveLevel)){
+    names.add(String(x.name||'').toLowerCase());
+  }
+  // TM / HM / Egg still gated by the UI toggles
+  for(const x of (learn.tm || []).filter(x => /^HM/i.test(String(x.item||'')) ? teamAllowHM : teamAllowTM)){
+    names.add(String(x.name||'').toLowerCase());
+  }
+  if(teamAllowEgg){
+    for(const x of (learn.egg || [])) names.add(String(x.name||'').toLowerCase());
+  }
+  return [...names].filter(Boolean);
+}
 function teamWeatherAffinity(p,weather){const info=TEAM_WEATHER_INFO[weather];if(!info)return {score:0,notes:[]};const abilities=(p.abilities||[]).map(x=>String(x).toLowerCase()),moves=teamAvailableMoveNames(p),notes=[];let score=0;
 // Permanent weather makes setters and abusers significantly more valuable
 if(abilities.some(x=>info.setters.includes(x))){score+=5.5;notes.push('permanent weather setter')}
@@ -484,7 +668,155 @@ function teamTeamScore(team,mode,enemies,strategy){let off=0,def=0;if(mode==='ge
 function teamRefine(selected,lockedCount,pool,mode,enemies,strategy){let team=selected.map(x=>x.pokemon);const ids=()=>new Set(team.map(p=>p.id));const cands=pool.filter(p=>!ids().has(p.id)).map(p=>({p,r:teamEvaluate(p,[],mode,enemies).raw})).sort((a,b)=>b.r-a.r).slice(0,90).map(x=>x.p);let score=teamTeamScore(team,mode,enemies,strategy);for(let pass=0;pass<3;pass++){let improved=false;for(let i=lockedCount;i<team.length;i++){let bestP=null,bestS=score+.01;for(const c of cands){if(ids().has(c.id))continue;const t=team.slice();t[i]=c;const sc=teamTeamScore(t,mode,enemies,strategy);if(sc>bestS){bestS=sc;bestP=c}}if(bestP){team[i]=bestP;score=bestS;improved=true}}if(!improved)break}const loss=team.map((p,i)=>score-teamTeamScore(team.filter((_,j)=>j!==i),mode,enemies,strategy)),maxLoss=Math.max(.01,...loss.filter((_,i)=>i>=lockedCount));const order=team.map((p,i)=>({p,i,l:loss[i]})).sort((a,b)=>(b.i<lockedCount)-(a.i<lockedCount)||(a.i<lockedCount&&b.i<lockedCount?a.i-b.i:b.l-a.l));const out=[];for(const {p,i,l} of order){if(i<lockedCount){out.push(selected[i]);continue}const ev=teamApplyStrategy(teamEvaluate(p,out,mode,enemies),p,out,strategy),wk=teamWeakTypes(out.map(x=>x.pokemon)),fixes=TEAM_TYPES.filter(t=>wk[t].weak>=1&&teamEffect(t,p.types)<1).slice(0,2);out.push({pokemon:p,...ev,fit:Math.max(52,Math.min(99,Math.round(58+41*Math.max(0,l)/maxLoss))),reason:`${ev.reason}${fixes.length?` Also resists ${fixes.join(' and ')}, which earlier picks are weak to.`:''}`})}selected.length=0;selected.push(...out)}
 function teamTeamCheck(selected){const w=teamWeakTypes(selected.map(x=>x.pokemon));const shared=TEAM_TYPES.filter(t=>w[t].weak>=3&&w[t].res<2).map(t=>`${t} ×${w[t].weak}`);return shared.length?` Team check: shared weakness to ${shared.join(', ')}.`:' Team check: no type hits three or more of your picks without a resist.'}
 
-function teamRenderReport(report){const {selected,mode,item,enemies,allEnemies,selectedVariant}=report,isCounter=mode==='counter'||mode==='trainer',strategy=report.strategy||{};const strategySummary=(strategy.weather||strategy.archetype)?`<div class="team-strategy-summary"><b>Strategy focus</b><span>${strategy.weather?`${strategy.weatherAuto?'Recommended':'Selected'} weather: ${esc(strategy.weatherLabel)}`:''}${strategy.weather&&strategy.archetype?' · ':''}${strategy.archetype?`${esc(strategy.archetypeLabel)} core`:''}</span><small>${strategy.weatherAuto?'Weather recommendation weighs your available roster and the selected opponent teams, including typings and known weather abilities.':'Scoring favors the selected synergies while preserving matchup coverage.'}</small></div>`:'';const roleCounts={};selected.forEach(x=>roleCounts[x.roleKey]=(roleCounts[x.roleKey]||0)+1);let overview='',targetMarkup='';const groups=new Map();if(isCounter){for(const entry of allEnemies){const key=Number(entry.variant);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(entry)}const avgFit=Math.round(selected.reduce((sum,x)=>sum+x.fit,0)/Math.max(1,selected.length)),outlook=avgFit>=78?'Favorable':avgFit>=62?'Competitive':'Challenging';const likelyTargetCoverage=new Set(selected.flatMap(x=>x.covered||[]));overview=`<div class="team-outlook"><div><span class="team-label">${selectedVariant===null?'Three-variant matchup outlook':`Team ${selectedVariant} matchup outlook`}</span><strong>${outlook}<b>${avgFit}<small>/100</small></b></strong><p>Composite fit index across ${selectedVariant===null?'all three possible teams':`opponent team ${selectedVariant}`}; it is a planning heuristic, not a win probability.</p></div><div class="team-outlook-detail"><b>${likelyTargetCoverage.size} opposing Pokémon directly threatened</b><span>Team roles: ${Object.entries(roleCounts).map(([k,v])=>`${esc(k)} ×${v}`).join(' · ')||'—'}</span><span>Opponent moves and type matchups are checked for individual answers and coverage dangers below.</span></div></div>`;const variantCards=[...groups.entries()].sort((a,b)=>a[0]-b[0]).map(([variant,entries])=>{const active=Number(selectedVariant)===variant,mons=entries.map(({mon})=>{const types=(mon.types||[]).map(t=>`<i class="type" style="${typeStyle(t)}">${esc(t)}</i>`).join('');const moves=(mon.moves||[]).map(raw=>{const m=typeof raw==='string'?TEAM_MOVE_BY_KEY.get(raw):raw;return m?`<span class="team-opp-move" title="${esc(m.type||'')} · ${m.power||0} power · ${m.accuracy||'—'}% accuracy">${esc(m.name||String(raw).replace(/^MOVE_/,'').replace(/_/g,' '))}</span>`:''}).filter(Boolean).join('');const itemName=mon.item&&mon.item!=='Unknown'?String(mon.item).replace(/^ITEM_/,'').replace(/_/g,' '):'None recorded';return `<div class="team-opp-mon">${mon.sprite?`<img src="${esc(mon.sprite)}" loading="lazy" alt="">`:''}<div class="team-opp-mon-info"><b>${esc(mon.name||'Unknown Pokémon')} ${(mon.boosts||[]).length?`<em>${esc(mon.boosts.join(' · '))}</em>`:''}</b><small>${types||'Types unavailable'} · Held item: ${esc(itemName)}</small><div class="team-opp-moves">${moves||'<span class="team-opp-move">Moves unavailable</span>'}</div></div></div>`}).join('');return `<button type="button" class="team-variant ${active?'active':''}" data-opponent-variant="${variant}" aria-pressed="${active}"><span class="team-variant-heading"><b>Opponent team ${variant}</b><small>${active?'Selected · recalculate matchup':'Select to recalculate matchup'}</small></span><span class="team-variant-roster">${mons}</span></button>`}).join('');targetMarkup=`<section class="team-opponents"><div class="team-opponents-head"><div><h4>Opponent team variants</h4><p>Review all three complete teams. Select a team to rebuild fit scores, answers, threats, and outlook for that variant.</p></div><span class="team-badge">${groups.size} variants</span></div><div class="team-variant-grid">${variantCards}</div></section>`}else{const coverage=new Set(selected.flatMap(x=>Object.entries(x.coverage||{}).filter(([,v])=>v>0).map(([t])=>t)));const uncovered=TEAM_TYPES.filter(t=>!coverage.has(t));const teamWeaknesses=TEAM_TYPES.filter(t=>selected.filter(x=>(x.pokemon.matchups?.weak2||[]).includes(t)||(x.pokemon.matchups?.weak4||[]).includes(t)).length>=3);overview=`<div class="team-analysis"><div class="team-analysis-box"><b>Offensive coverage</b><p>Learned attacks threaten ${coverage.size} of 18 types super-effectively${uncovered.length?`. Gaps to consider: ${uncovered.slice(0,7).join(', ')}`:''}.</p></div><div class="team-analysis-box"><b>Team roles &amp; defensive watchlist</b><p>${Object.entries(roleCounts).map(([k,v])=>`${esc(k)} ×${v}`).join(' · ')}. ${teamWeaknesses.length?`Shared weaknesses to review: ${teamWeaknesses.join(', ')}.`:'No single type is a weakness for three or more picks.'}</p></div></div>`}const cards=selected.map((x,i)=>{const p=x.pokemon,types=(p.types||[]).map(t=>`<i class="type" style="${typeStyle(t)}">${esc(t)}</i>`).join('');let matchup='';if(isCounter){const answers=[],threats=[],walls=[];for(const {mon} of enemies){let best=null;for(const m of teamMoveList(p)){const eff=teamEffect(m.type,mon.types);const score=teamMoveValue(p,m,mon);if(eff>1&&(!best||score>best.score))best={move:m,eff,score}}if(best)answers.push(`${mon.name}: ${best.move.name} ×${best.eff}`);const offense=teamEnemyOffense(mon),multipliers=offense.map(m=>teamEffect(m.type,p.types)),dangerous=offense.filter(m=>teamEffect(m.type,p.types)>1).map(m=>`${m.name} (${m.type}, ${teamEffect(m.type,p.types)}×)`);if(dangerous.length)threats.push(`${mon.name}: ${dangerous.slice(0,3).join(', ')}`);if(offense.length&&multipliers.length&&multipliers.every(v=>v<=.5))walls.push(`${mon.name} (${multipliers.some(v=>v===0)?'immune to some listed attacks':'all listed attacks resisted'})`)}const wallList=walls;matchup=`<div class="team-matchups"><div><b>Answers · super-effective options</b><p>${answers.length?answers.slice(0,6).map(esc).join(' · '):'No super-effective learned move identified against this variant.'}</p></div><div class="team-wall"><b>Walls · listed coverage checked</b><p>${wallList.length?wallList.slice(0,6).map(esc).join(' · '):'No full wall found: the opponent has at least one listed damaging move that is neutral or stronger.'}</p></div><div class="watch"><b>Watch out · super-effective coverage</b><p>${threats.length?threats.slice(0,6).map(esc).join(' · '):'No listed super-effective opponent move detected; neutral damage can still be dangerous.'}</p></div></div>`}const covered=x.covered?.length?`<div class="team-counter">${x.covered.slice(0,4).map(n=>`<span>Answers ${esc(n)}</span>`).join('')}</div>`:'';return `<article class="team-pick"><div class="team-pick-top"><img src="${esc(p.sprite||'')}" alt="${esc(p.name)} sprite" loading="lazy"><div class="team-pick-title"><b>${String(i+1).padStart(2,'0')} · ${esc(p.name)}${p.level?` <span class="team-level">Lv ${p.level}</span>`:''} ${teamLocked.has(Number(p.id))?'<span class="team-locked-label">LOCKED</span>':''}</b><small>${types}${p.fromSave?' · from save':''}</small></div><div class="team-fit" aria-label="${x.fit}% fit">${x.fit}%</div></div><div class="team-reason"><strong>${esc(x.role)}</strong> · ${esc(x.reason)}</div>${matchup}${isCounter?(()=>{const suggestions=teamSuggestMoves(p,enemies);return `<section class="team-suggested-moves"><b>Suggested moves · level cap ${teamLevelCap}</b><div>${suggestions.map(m=>`<span><strong>${esc(m.name)}</strong><small>${esc(m.type)} · ${m.power} power · ${esc(m.source)}</small></span>`).join('')||'<small>No damaging learnset moves available at this cap.</small>'}</div><p>Level-up moves through Lv ${teamLevelCap}${[teamAllowTM?'TMs':'',teamAllowHM?'HMs':'',teamAllowEgg?'Egg moves':''].filter(Boolean).length?`, plus enabled ${[teamAllowTM?'TMs':'',teamAllowHM?'HMs':'',teamAllowEgg?'Egg moves':''].filter(Boolean).join(', ')}`:''}. Enable only the sources available in your run.</p></section>`})():''}${covered}</article>`}).join('');teamEls.results.innerHTML=`<div class="team-result-head"><div><h3>${isCounter?`${esc(item.trainer.name)} counter squad`:'Balanced field team'}</h3><p>${isCounter?`${esc(item.trainer.kind)} · ${esc(teamEls.encounter.selectedOptions[0]?.textContent||'selected encounter')} · ${selectedVariant===null?'All three randomized teams considered':`Opponent team ${selectedVariant} selected`}`:'Six picks selected to spread attacking coverage and team duties.'}</p></div><div class="team-badges"><span class="team-badge">${selected.length} / 6 picks</span><span class="team-badge">${teamPool?`${teamPool.length} available`:'Full roster'}</span></div></div>${strategySummary}${overview}<div class="team-picks">${cards}</div>${targetMarkup}<div class="team-disclaimer">Fit scores and matchup outlook are heuristics, not actual win odds. They compare your roster’s listed damaging moves, modified type matchups, stats, opponent coverage, and team-role balance. They do not simulate full damage rolls, item effects, ability activations, status turns, AI, or battle turns; strategy bonuses reflect known roster synergies. Treat “Answers” as type-based offensive options and “Watch out” as listed super-effective opponent moves, not guarantees.</div>`}
+
+/** Build offensive coverage and defensive profile for a selected team. */
+function teamTypeChartAnalysis(selected){
+  const types = TEAM_TYPES;
+  const offensive = {};
+  for(const t of types){
+    let best = 0;
+    for(const x of selected){
+      const p = x.pokemon;
+      const moves = teamMoveList(p);
+      for(const m of moves){
+        if((m.power||0) <= 0) continue;
+        const mult = teamEffect(m.type, [t]);
+        const stab = (p.types||[]).includes(m.type) ? 1.5 : 1;
+        const score = mult * stab;
+        if(score > best) best = score;
+      }
+      for(const atkType of (p.types||[])){
+        const mult = teamEffect(atkType, [t]);
+        if(mult > best) best = mult;
+      }
+    }
+    offensive[t] = best;
+  }
+  const defensive = {};
+  for(const atk of types){
+    let weak = 0, resist = 0, immune = 0, neutral = 0;
+    for(const x of selected){
+      const mult = teamEffect(atk, x.pokemon.types||[]);
+      if(mult === 0) immune++;
+      else if(mult > 1) weak++;
+      else if(mult < 1) resist++;
+      else neutral++;
+    }
+    defensive[atk] = {weak, resist, immune, neutral};
+  }
+  let offHits = 0, offSuper = 0;
+  for(const t of types){
+    if(offensive[t] >= 2) offSuper++;
+    if(offensive[t] >= 1) offHits++;
+  }
+  let offScore = (offSuper / types.length) * 7 + (offHits / types.length) * 3;
+  const avgOff = types.reduce((s,t)=>s+offensive[t],0) / types.length;
+  offScore = Math.min(10, Math.max(1, Math.round(offScore + Math.min(1.5, (avgOff-1)*0.8))));
+
+  let totalWeak = 0, totalResist = 0, totalImmune = 0, sharedWeak = 0;
+  for(const t of types){
+    const d = defensive[t];
+    totalWeak += d.weak;
+    totalResist += d.resist;
+    totalImmune += d.immune;
+    if(d.weak >= 3) sharedWeak++;
+  }
+  const n = Math.max(1, selected.length);
+  let defScore = 10
+    - (totalWeak / (n * types.length)) * 12
+    - sharedWeak * 0.9
+    + (totalResist / (n * types.length)) * 3
+    + (totalImmune / (n * types.length)) * 4;
+  defScore = Math.min(10, Math.max(1, Math.round(defScore)));
+
+  return {offensive, defensive, offScore, defScore, sharedWeak, offSuper, offHits};
+}
+function teamTypeChartMarkup(analysis){
+  const {offensive, defensive, offScore, defScore} = analysis;
+  const types = TEAM_TYPES;
+  function offClass(v){
+    if(v >= 2) return 'super';
+    if(v >= 1.5) return 'stab';
+    if(v >= 1) return 'neutral';
+    if(v > 0) return 'resist';
+    return 'immune';
+  }
+  function offLabel(v){
+    if(v >= 4) return '4x';
+    if(v >= 3) return '3x';
+    if(v >= 2) return '2x';
+    if(v >= 1.5) return '1.5x';
+    if(v >= 1) return '1x';
+    if(v >= 0.5) return '0.5x';
+    return '0x';
+  }
+  function defClass(d){
+    if(d.weak >= 3) return 'hole';
+    if(d.weak >= 2) return 'soft';
+    if(d.immune >= 1 || d.resist >= 3) return 'solid';
+    if(d.resist >= 1) return 'ok';
+    return 'plain';
+  }
+  function ratingBar(score){
+    const pct = Math.max(6, score * 10);
+    const tone = score >= 8 ? 'high' : score >= 5 ? 'mid' : 'low';
+    return `<div class="team-rating" data-tone="${tone}"><span class="team-rating-num">${score}<small>/10</small></span><div class="team-rating-track"><i style="width:${pct}%"></i></div></div>`;
+  }
+  const offCells = types.map(t => {
+    const v = offensive[t];
+    return `<button type="button" class="team-chart-cell off ${offClass(v)}" title="Best offensive pressure vs ${t}: ${offLabel(v)}" style="--type:${TYPE_COLORS[t]||'#7d8995'}"><span>${t.slice(0,3)}</span><b>${offLabel(v)}</b></button>`;
+  }).join('');
+  const defCells = types.map(t => {
+    const d = defensive[t];
+    const tip = `${t} attacks -> ${d.weak} weak / ${d.resist} resist / ${d.immune} immune`;
+    return `<button type="button" class="team-chart-cell def ${defClass(d)}" title="${tip}" style="--type:${TYPE_COLORS[t]||'#7d8995'}"><span>${t.slice(0,3)}</span><b>${d.weak}w</b><small>${d.resist}r${d.immune?` / ${d.immune}i`:''}</small></button>`;
+  }).join('');
+  return `<section class="team-type-chart" aria-label="Team type chart">
+    <div class="team-chart-head">
+      <div>
+        <h4>Team type chart</h4>
+        <p>Offensive coverage and defensive profile across all 18 types. Ratings are relative planning scores for this roster.</p>
+      </div>
+      <div class="team-chart-ratings">
+        <div class="team-chart-rating-block"><span>Offense</span>${ratingBar(offScore)}</div>
+        <div class="team-chart-rating-block"><span>Defense</span>${ratingBar(defScore)}</div>
+      </div>
+    </div>
+    <div class="team-chart-grid-wrap">
+      <div class="team-chart-block">
+        <div class="team-chart-label"><b>Offense</b><span>Best hit vs each type</span></div>
+        <div class="team-chart-grid">${offCells}</div>
+      </div>
+      <div class="team-chart-block">
+        <div class="team-chart-label"><b>Defense</b><span>Weak / resist / immune counts</span></div>
+        <div class="team-chart-grid">${defCells}</div>
+      </div>
+    </div>
+    <div class="team-chart-legend">
+      <span><i class="lg super"></i> Super-effective</span>
+      <span><i class="lg stab"></i> Strong / STAB</span>
+      <span><i class="lg neutral"></i> Neutral</span>
+      <span><i class="lg resist"></i> Resisted</span>
+      <span><i class="lg immune"></i> No coverage</span>
+      <span class="sep">·</span>
+      <span><i class="lg hole"></i> Shared weakness (3+)</span>
+      <span><i class="lg soft"></i> Soft spot (2)</span>
+      <span><i class="lg solid"></i> Well covered</span>
+    </div>
+  </section>`;
+}
+function teamRenderReport(report){const {selected,mode,item,enemies,allEnemies,selectedVariant}=report,isCounter=mode==='counter'||mode==='trainer',strategy=report.strategy||{};const strategySummary=(strategy.weather||strategy.archetype)?`<div class="team-strategy-summary"><b>Strategy focus</b><span>${strategy.weather?`${strategy.weatherAuto?'Recommended':'Selected'} weather: ${esc(strategy.weatherLabel)}`:''}${strategy.weather&&strategy.archetype?' · ':''}${strategy.archetype?`${esc(strategy.archetypeLabel)} core`:''}</span><small>${strategy.weatherAuto?'Weather recommendation weighs your available roster and the selected opponent teams, including typings and known weather abilities.':'Scoring favors the selected synergies while preserving matchup coverage.'}</small></div>`:'';const roleCounts={};selected.forEach(x=>roleCounts[x.roleKey]=(roleCounts[x.roleKey]||0)+1);let overview='',targetMarkup='';const groups=new Map();if(isCounter){for(const entry of allEnemies){const key=Number(entry.variant);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(entry)}const avgFit=Math.round(selected.reduce((sum,x)=>sum+x.fit,0)/Math.max(1,selected.length)),outlook=avgFit>=78?'Favorable':avgFit>=62?'Competitive':'Challenging';const likelyTargetCoverage=new Set(selected.flatMap(x=>x.covered||[]));overview=`<div class="team-outlook"><div><span class="team-label">${selectedVariant===null?'Three-variant matchup outlook':`Team ${selectedVariant} matchup outlook`}</span><strong>${outlook}<b>${avgFit}<small>/100</small></b></strong><p>Composite fit index across ${selectedVariant===null?'all three possible teams':`opponent team ${selectedVariant}`}; it is a planning heuristic, not a win probability.</p></div><div class="team-outlook-detail"><b>${likelyTargetCoverage.size} opposing Pokémon directly threatened</b><span>Team roles: ${Object.entries(roleCounts).map(([k,v])=>`${esc(k)} ×${v}`).join(' · ')||'—'}</span><span>Opponent moves and type matchups are checked for individual answers and coverage dangers below.</span></div></div>`;const variantCards=[...groups.entries()].sort((a,b)=>a[0]-b[0]).map(([variant,entries])=>{const active=Number(selectedVariant)===variant,mons=entries.map(({mon})=>{const types=(mon.types||[]).map(t=>`<i class="type" style="${typeStyle(t)}">${esc(t)}</i>`).join('');const moves=(mon.moves||[]).map(raw=>{const m=typeof raw==='string'?TEAM_MOVE_BY_KEY.get(raw):raw;return m?`<span class="team-opp-move" title="${esc(m.type||'')} · ${m.power||0} power · ${m.accuracy||'—'}% accuracy">${esc(m.name||String(raw).replace(/^MOVE_/,'').replace(/_/g,' '))}</span>`:''}).filter(Boolean).join('');const itemName=mon.item&&mon.item!=='Unknown'?String(mon.item).replace(/^ITEM_/,'').replace(/_/g,' '):'None recorded';return `<div class="team-opp-mon">${mon.sprite?`<img src="${esc(mon.sprite)}" loading="lazy" alt="">`:''}<div class="team-opp-mon-info"><b>${esc(mon.name||'Unknown Pokémon')} ${(mon.boosts||[]).length?`<em>${esc(mon.boosts.join(' · '))}</em>`:''}</b><small>${types||'Types unavailable'} · Held item: ${esc(itemName)}</small><div class="team-opp-moves">${moves||'<span class="team-opp-move">Moves unavailable</span>'}</div></div></div>`}).join('');return `<button type="button" class="team-variant ${active?'active':''}" data-opponent-variant="${variant}" aria-pressed="${active}"><span class="team-variant-heading"><b>Opponent team ${variant}</b><small>${active?'Selected · recalculate matchup':'Select to recalculate matchup'}</small></span><span class="team-variant-roster">${mons}</span></button>`}).join('');targetMarkup=`<section class="team-opponents"><div class="team-opponents-head"><div><h4>Opponent team variants</h4><p>Review all three complete teams. Select a team to rebuild fit scores, answers, threats, and outlook for that variant.</p></div><span class="team-badge">${groups.size} variants</span></div><div class="team-variant-grid">${variantCards}</div></section>`}else{const coverage=new Set(selected.flatMap(x=>Object.entries(x.coverage||{}).filter(([,v])=>v>0).map(([t])=>t)));const uncovered=TEAM_TYPES.filter(t=>!coverage.has(t));const teamWeaknesses=TEAM_TYPES.filter(t=>selected.filter(x=>(x.pokemon.matchups?.weak2||[]).includes(t)||(x.pokemon.matchups?.weak4||[]).includes(t)).length>=3);overview=`<div class="team-analysis"><div class="team-analysis-box"><b>Offensive coverage</b><p>Learned attacks threaten ${coverage.size} of 18 types super-effectively${uncovered.length?`. Gaps to consider: ${uncovered.slice(0,7).join(', ')}`:''}.</p></div><div class="team-analysis-box"><b>Team roles &amp; defensive watchlist</b><p>${Object.entries(roleCounts).map(([k,v])=>`${esc(k)} ×${v}`).join(' · ')}. ${teamWeaknesses.length?`Shared weaknesses to review: ${teamWeaknesses.join(', ')}.`:'No single type is a weakness for three or more picks.'}</p></div></div>`}const cards=selected.map((x,i)=>{const p=x.pokemon,types=(p.types||[]).map(t=>`<i class="type" style="${typeStyle(t)}">${esc(t)}</i>`).join('');let matchup='';if(isCounter){const answers=[],threats=[],walls=[];for(const {mon} of enemies){let best=null;for(const m of teamMoveList(p)){const eff=teamEffect(m.type,mon.types);const score=teamMoveValue(p,m,mon);if(eff>1&&(!best||score>best.score))best={move:m,eff,score}}if(best)answers.push(`${mon.name}: ${best.move.name} ×${best.eff}`);const offense=teamEnemyOffense(mon),multipliers=offense.map(m=>teamEffect(m.type,p.types)),dangerous=offense.filter(m=>teamEffect(m.type,p.types)>1).map(m=>`${m.name} (${m.type}, ${teamEffect(m.type,p.types)}×)`);if(dangerous.length)threats.push(`${mon.name}: ${dangerous.slice(0,3).join(', ')}`);if(offense.length&&multipliers.length&&multipliers.every(v=>v<=.5))walls.push(`${mon.name} (${multipliers.some(v=>v===0)?'immune to some listed attacks':'all listed attacks resisted'})`)}const wallList=walls;matchup=`<div class="team-matchups"><div><b>Answers · super-effective options</b><p>${answers.length?answers.slice(0,6).map(esc).join(' · '):'No super-effective learned move identified against this variant.'}</p></div><div class="team-wall"><b>Walls · listed coverage checked</b><p>${wallList.length?wallList.slice(0,6).map(esc).join(' · '):'No full wall found: the opponent has at least one listed damaging move that is neutral or stronger.'}</p></div><div class="watch"><b>Watch out · super-effective coverage</b><p>${threats.length?threats.slice(0,6).map(esc).join(' · '):'No listed super-effective opponent move detected; neutral damage can still be dangerous.'}</p></div></div>`}const covered=x.covered?.length?`<div class="team-counter">${x.covered.slice(0,4).map(n=>`<span>Answers ${esc(n)}</span>`).join('')}</div>`:'';return `<article class="team-pick"><div class="team-pick-top"><img src="${esc(p.sprite||'')}" alt="${esc(p.name)} sprite" loading="lazy"><div class="team-pick-title"><b>${String(i+1).padStart(2,'0')} · ${esc(p.name)}${p.level?` <span class="team-level">Lv ${p.level}</span>`:''} ${teamLocked.has(Number(p.id))?'<span class="team-locked-label">LOCKED</span>':''}</b><small>${types}${p.fromSave?' · from save':''}</small></div><div class="team-fit" aria-label="${x.fit}% fit">${x.fit}%</div></div><div class="team-reason"><strong>${esc(x.role)}</strong> · ${esc(x.reason)}</div>${matchup}${(()=>{
+  const suggestions = teamSuggestMoves(p, enemies||[], x.roleKey, report.strategy);
+  const ability = teamSuggestAbility(p, selected, report.strategy, enemies||[]);
+  const effectiveLevel = teamEffectiveLevel(p);
+  const sources = [teamAllowTM?'TMs':'', teamAllowHM?'HMs':'', teamAllowEgg?'Egg moves':''].filter(Boolean);
+  return `<section class="team-suggested-moves">
+    ${ability ? `<div class="team-suggested-ability"><b>Suggested ability</b><span><strong>${esc(ability.name)}</strong><small>${esc(ability.reason)}</small></span></div>` : ''}
+    <b>Suggested moves · up to Lv ${effectiveLevel}</b>
+    <div>${suggestions.map(m => `<span><strong>${esc(m.name)}</strong><small>${esc(m.type)}${m.power?` · ${m.power} power`:''} · ${esc(m.source||'Learnset')}</small></span>`).join('') || '<small>No suitable moves available under current rules.</small>'}</div>
+    <p>Level-up moves are always available via the Move Relearner. Ability can be changed with the Ability Pill.${sources.length ? ` Also considering enabled ${sources.join(', ')}.` : ''}</p>
+  </section>`;
+})()}${covered}</article>`}).join('');teamEls.results.innerHTML=`<div class="team-result-head"><div><h3>${isCounter?`${esc(item.trainer.name)} counter squad`:'Balanced field team'}</h3><p>${isCounter?`${esc(item.trainer.kind)} · ${esc(teamEls.encounter.selectedOptions[0]?.textContent||'selected encounter')} · ${selectedVariant===null?'All three randomized teams considered':`Opponent team ${selectedVariant} selected`}`:'Six picks selected to spread attacking coverage and team duties.'}</p></div><div class="team-badges"><span class="team-badge">${selected.length} / 6 picks</span><span class="team-badge">${teamPool?`${teamPool.length} available`:'Full roster'}</span></div></div>${strategySummary}${overview}<div class="team-picks">${cards}</div>${teamTypeChartMarkup(teamTypeChartAnalysis(selected))}${targetMarkup}<div class="team-disclaimer">Fit scores and matchup outlook are heuristics, not actual win odds. They compare your roster’s listed damaging moves, modified type matchups, stats, opponent coverage, and team-role balance. They do not simulate full damage rolls, item effects, ability activations, status turns, AI, or battle turns; strategy bonuses reflect known roster synergies. Treat “Answers” as type-based offensive options and “Watch out” as listed super-effective opponent moves, not guarantees.</div>`}
 teamEls.import.addEventListener('click',()=>teamImportText(teamEls.rosterText.value));
 teamEls.reset.addEventListener('click',()=>{teamPool=null;teamLocked.clear();teamUpdatePoolLabel();teamSetNotice('Using the full in-game Pokédex as the candidate pool.','success')});
 teamEls.rosterFile.addEventListener('change',async()=>{const file=teamEls.rosterFile.files?.[0];if(!file)return;try{if(/\.sav$/i.test(file.name)){await teamImportSave(file);return}const text=await file.text();teamEls.rosterText.value=text;teamImportText(text)}catch(error){teamSetNotice(error?.message||'Could not read that file. Try a supported Gen III .sav or a plain TXT, CSV, or JSON roster.','error')}});
